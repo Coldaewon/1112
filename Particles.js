@@ -15,9 +15,9 @@ class ParticleSystem{
         }
     }
 
-    applyWind(wind){
+    applyForce(force){
         for(let p of this.particles){
-            p.applyForce(wind);
+            p.applyForce(force);
         }
     }
 
